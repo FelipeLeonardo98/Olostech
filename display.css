@@ -26,11 +26,12 @@
 }
 
 .example-item_second{
-    background-color: indigo;
+    background-color: rgb(47, 8, 75);
 }
 
 .example-item_third{
     background-color: rgb(39, 39, 39);
+    color: green
 }
 
 /*For justify effect to be better */
