@@ -1,0 +1,40 @@
+.example{
+    color: #fff;
+    text-align: justify;
+}
+
+.example-item{
+    display: inline-block;
+    width: 25%;
+    height: 150px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 150px;
+    border: 1px solid;
+    box-shadow: 1px 1px 1px 1px #000; 
+}
+
+.example-item:hover{
+    box-shadow: 3px 3px 3px 3px green;
+    padding: 1px;
+    font-size: 30px;
+}
+
+.example-item_first{
+    background-color: rgb(2, 49, 2);
+}
+
+.example-item_second{
+    background-color: indigo;
+}
+
+.example-item_third{
+    background-color: rgb(39, 39, 39);
+}
+
+/*For justify effect to be better */
+.example::after{
+    display: inline-block;
+    content: '';
+    width: 100%;
+}
